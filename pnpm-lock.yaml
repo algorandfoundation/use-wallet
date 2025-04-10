@@ -118,8 +118,8 @@ importers:
   examples/nuxt:
     dependencies:
       '@algorandfoundation/liquid-auth-use-wallet-client':
-        specifier: 1.2.0
-        version: 1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        specifier: ^1.3.0
+        version: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@blockshake/defly-connect':
         specifier: ^1.2.1
         version: 1.2.1(algosdk@3.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -164,8 +164,8 @@ importers:
   examples/react-ts:
     dependencies:
       '@algorandfoundation/liquid-auth-use-wallet-client':
-        specifier: 1.2.0
-        version: 1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        specifier: ^1.3.0
+        version: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@blockshake/defly-connect':
         specifier: ^1.2.1
         version: 1.2.1(algosdk@3.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -228,8 +228,8 @@ importers:
   examples/solid-ts:
     dependencies:
       '@algorandfoundation/liquid-auth-use-wallet-client':
-        specifier: 1.2.0
-        version: 1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        specifier: ^1.3.0
+        version: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@blockshake/defly-connect':
         specifier: ^1.2.1
         version: 1.2.1(algosdk@3.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -268,8 +268,8 @@ importers:
   examples/vanilla-ts:
     dependencies:
       '@algorandfoundation/liquid-auth-use-wallet-client':
-        specifier: 1.2.0
-        version: 1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        specifier: ^1.3.0
+        version: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@blockshake/defly-connect':
         specifier: ^1.2.1
         version: 1.2.1(algosdk@3.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -305,8 +305,8 @@ importers:
   examples/vue-ts:
     dependencies:
       '@algorandfoundation/liquid-auth-use-wallet-client':
-        specifier: 1.2.0
-        version: 1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        specifier: ^1.3.0
+        version: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@blockshake/defly-connect':
         specifier: ^1.2.1
         version: 1.2.1(algosdk@3.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -556,8 +556,14 @@ packages:
   '@algorandfoundation/liquid-auth-use-wallet-client@1.2.0':
     resolution: {integrity: sha512-+QflKTM5ngubnWf4w6Ocp+ZnliePvS3PdF3SaknyyIx+cypWodyesyfkn5dXQZc2fXUF0rDaVJcCQhi6o6fRmg==}
 
-  '@algorandfoundation/liquid-client@https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/0958cb96627b5ead1ef5cfbdc4f47fe43a2e4908':
-    resolution: {tarball: https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/0958cb96627b5ead1ef5cfbdc4f47fe43a2e4908}
+  '@algorandfoundation/liquid-auth-use-wallet-client@1.3.0':
+    resolution: {integrity: sha512-tZB47pnLe8gsx8msb0O8zYeSQkID9DCK2imHiY2Eo0uRYwETvHUkTo6blxIkAuOOzkT6BBa7oB4e0ggnCFX4ig==}
+
+  '@algorandfoundation/liquid-client@1.0.0-canary.3':
+    resolution: {integrity: sha512-QbHKeGPjx2RMNh29PSoVr9i98KVn593dppoS7jjqgum5kFobxGZ8kfpEEbOSGbt6qzw1vfL4iM2yhl4g5kAasg==}
+
+  '@algorandfoundation/liquid-client@https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/062ed1bd164b5fea427932983a411fe7bbc67988':
+    resolution: {tarball: https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/062ed1bd164b5fea427932983a411fe7bbc67988}
     version: 1.0.0-canary.3
 
   '@algorandfoundation/provider@https://codeload.github.com/algorandfoundation/wallet-provider-ts/tar.gz/28c80f5b9e0259b8e83e65c65d802d8123de9046':
@@ -5040,6 +5046,10 @@ packages:
   qr-code-styling@1.6.0-rc.1:
     resolution: {integrity: sha512-ModRIiW6oUnsP18QzrRYZSc/CFKFKIdj7pUs57AEVH20ajlglRpN3HukjHk0UbNMTlKGuaYl7Gt6/O5Gg2NU2Q==}
 
+  qr-code-styling@1.9.1:
+    resolution: {integrity: sha512-T/VxQchuZkQwYhIcyyMUmtXHPeDT6lJBYHfqGD5CBDyIjswxS7JZKf443q+SXO1K/9SUswi6JpXEUQ5AoMCpyg==}
+    engines: {node: '>=18.18.0'}
+
   qrcode-generator@1.4.4:
     resolution: {integrity: sha512-HM7yY8O2ilqhmULxGMpcHSF1EhJJ9yBj8gvDEuZ6M+KGJ0YY2hKpnXvRD+hZPLrDVck3ExIGhmPtSdcjC+guuw==}
 
@@ -6515,7 +6525,7 @@ snapshots:
 
   '@algorandfoundation/liquid-auth-use-wallet-client@1.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@algorandfoundation/liquid-client': https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/0958cb96627b5ead1ef5cfbdc4f47fe43a2e4908(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@algorandfoundation/liquid-client': https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/062ed1bd164b5fea427932983a411fe7bbc67988(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@algorandfoundation/provider': https://codeload.github.com/algorandfoundation/wallet-provider-ts/tar.gz/28c80f5b9e0259b8e83e65c65d802d8123de9046
       cbor-x: 1.6.0
     transitivePeerDependencies:
@@ -6524,11 +6534,36 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@algorandfoundation/liquid-client@https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/0958cb96627b5ead1ef5cfbdc4f47fe43a2e4908(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@algorandfoundation/liquid-auth-use-wallet-client@1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+    dependencies:
+      '@algorandfoundation/liquid-client': 1.0.0-canary.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@algorandfoundation/provider': https://codeload.github.com/algorandfoundation/wallet-provider-ts/tar.gz/28c80f5b9e0259b8e83e65c65d802d8123de9046
+      cbor-x: 1.6.0
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+
+  '@algorandfoundation/liquid-client@1.0.0-canary.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@algorandfoundation/qr-code-styling': https://codeload.github.com/algorandfoundation/qr-code-styling/tar.gz/ce8541ee1cb3b0ab2acd9926f3092d4ab217e276
       canvas: 2.11.2
       eventemitter3: 5.0.1
+      socket.io-client: 4.8.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      tweetnacl: 1.0.3
+      uuid: 10.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+
+  '@algorandfoundation/liquid-client@https://codeload.github.com/algorandfoundation/liquid-auth-js/tar.gz/062ed1bd164b5fea427932983a411fe7bbc67988(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+    dependencies:
+      canvas: 2.11.2
+      eventemitter3: 5.0.1
+      qr-code-styling: 1.9.1
       socket.io-client: 4.8.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       tweetnacl: 1.0.3
       uuid: 10.0.0
@@ -11973,6 +12008,10 @@ snapshots:
   punycode@2.3.1: {}
 
   qr-code-styling@1.6.0-rc.1:
+    dependencies:
+      qrcode-generator: 1.4.4
+
+  qr-code-styling@1.9.1:
     dependencies:
       qrcode-generator: 1.4.4
 
